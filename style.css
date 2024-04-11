@@ -1,0 +1,144 @@
+:root{
+    --Tomato: hsl(4, 100%, 67%);
+    --Dark-Slate-Grey: hsl(234, 29%, 20%);
+    --Charcoal-Grey: hsl(235, 18%, 26%);
+    --Grey: hsl(231, 7%, 60%);
+    --White: hsl(0, 0%, 100%);
+    
+}
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../assets/fonts/Roboto-Regular.ttf);
+}
+body{
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--Dark-Slate-Grey);
+   /*  flex-direction: column; */
+
+}
+.container{
+    display: flex;
+    background-color: var(--White);
+    width: 800px;
+    max-width: 80%;
+    padding: 30px;
+   /*  position: relative; */
+    border-radius: 25px;
+    /* visibility: visible; */
+   
+}
+
+.container-left{
+    width: 60%;
+}
+.container-right{
+    width: 40%;
+}
+.container-right img{
+    width: 100%;
+} 
+
+h1{
+    font-size: 50px;
+}
+ul{
+    list-style-image: url(../assets/images/icon-list.svg);
+}
+li{
+    margin-bottom: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+label{
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px 20px;
+    font-family: inherit;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid  var(--Grey);
+    background-color: white;
+}
+button{
+    font-family: inherit;
+    margin-top: 20px;
+    padding: 15px 20px;
+    outline: none;
+    border: none;
+    color: var(--White);
+    background-color: var(--Charcoal-Grey);
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: var(--Tomato);
+    transition: all 1s;
+}
+.invalid {
+    color: red;
+    text-align: right;
+    
+}
+.hide{
+    display: none;
+}
+
+.success-container{
+    background-color: var(--White);
+    width: 400px;
+    max-width: 80%;
+    padding: 40px;
+    position: relative;
+    border-radius: 5px;
+    
+}
+.success-container h1 {
+    font-size: 40px;
+}
+
+.success-container button{
+    width: 100%;
+}
+@media(max-width: 768px){
+    .container{
+        flex-direction: column-reverse;
+        width: 90%;
+        padding: 0;
+    }
+    h1{
+        font-size: 30px;
+        
+    }
+    .container-left{
+        width: 100%;
+        padding: 20px;
+    }
+    .container-right{
+        width:100%;
+        
+    }
+   
+    form{
+        
+        width: 90%;
+    
+    }
+    .container-left img {
+        filter: url(../assets/images/illustration-sign-up-mobile.svg)
+    }
+    .success-container{
+        min-height: 100vh;
+    }
+}
