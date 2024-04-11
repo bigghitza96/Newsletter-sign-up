@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [(https://your-solution-url.com](https://bigghitza96.github.io/Newsletter-sign-up/)]
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-solution-regex-pattern-7XTqt8Lrsv)
 
 ## My process
 
