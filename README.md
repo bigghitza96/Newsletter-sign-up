@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-solution-regex-pattern-7XTqt8Lrsv)]
-- Live Site URL:[](https://bigghitza96.github.io/Newsletter-sign-up/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/newsletter-signup-form-with-success-message-solution-regex-pattern-7XTqt8Lrsv)]
+- Live Site URL:[Live site](https://bigghitza96.github.io/Newsletter-sign-up/)
 
 ## My process
 
