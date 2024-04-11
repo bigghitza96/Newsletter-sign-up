@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]([https://your-solution-url.com](https://bigghitza96.github.io/Newsletter-sign-up/))
+- Solution URL: [(https://your-solution-url.com](https://bigghitza96.github.io/Newsletter-sign-up/)]
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
